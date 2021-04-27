@@ -34,9 +34,9 @@
     <section id="about">
         <div class="about-text">
             <h2>About me</h2>
-            <h3>Freelancer Desarrollador FullSatck</h3>
+            <h3>Desarrollador FullSatck</h3>
             <p>Desarrollo de proyectos a partir de HTML5, CSS3 Y JAVASCRIPT. Con conocimientos, experiencia y agilidad.</p>
-            <button>More details</button>
+
         </div>
         <div class="about-model">
             <img src="./css/about.jpg" alt="about-img">
@@ -137,24 +137,21 @@
     </section>
 
     <section id="contact-form">
-        <form>
+        <form name="contact" method="POST" data-netlify="true">
             <div class="contact-left">
                 <h2 class="c-l-heading"><font style="border-bottom: 3px solid #1ed98b;">Escribeme</font></h2>
                 <div class="f-name">
-                    <font>Name</font>
-                    <input type="text"placeholder="Fullname">
+                    <label><font>Name</font><input type="text" placeholder="Fullname" name="name"></label>
                 </div>
                 <div class="f-email">
-                    <font>Email</font>
-                    <input type="email"placeholder="Example@hmail.com">
+                    <label><font>Email</font><input type="email"placeholder="Example@hmail.com" name="email"></label>
                 </div>
             </div>
             <div class="contact-right">
                 <div class="message">
-                    <font>Message</font>
-                    <textarea name="message" cols="20" rows="5"placeholder="Escribe el mensaje..."></textarea>
+                    <label><font>Message</font><textarea name="message" cols="20" rows="5"placeholder="Escribe el mensaje..."></textarea></label>
                 </div>
-                <button>Submit</button>
+                <button type="sunmit">Submit</button>
             </div>
         </form>
     </section>
