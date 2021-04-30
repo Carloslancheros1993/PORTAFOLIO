@@ -17,7 +17,6 @@ a {
     box-sizing: border-box;
     background-image: url("pic.png");
     background-repeat: no-repeat;
-    background-size: 200px;
     background-position: right bottom;
 }
 nav {
@@ -60,7 +59,7 @@ nav {
 .name p:nth-child(1),
 .name .details {
     color: #6c707c;
-    font-size: 16px;
+    font-size: 18px;
 }
 .name h1 {
     font-family: Poppins;
@@ -84,16 +83,14 @@ nav {
 }
 .social {
     position: absolute;
-    left: 80px;
-    bottom: 50px;
     display: flex;
 }
 .social a {
     margin: 6px 12px;
 }
-.socila i {
+.social i {
     color: rgba(18,17,17,0.4);
-    font-size: 14px;
+    font-size: 40px;
 }
 .social a:hover i {
     color: #17d1ac;
@@ -447,6 +444,10 @@ nav {
     display: flex;
     flex-direction: column;
 }
+.message ::placeholder {
+    font-size: 18px;
+    font-family: calibri;
+}
 .contact-right textarea {
     width: 100%!important;
     height: 320px!important;
@@ -455,7 +456,7 @@ nav {
     background: transparent;
     box-sizing: border-box;
     color: #ebebeb;
-    font-size: 16px;
+    font-size: 22px;
 }
 .contact-right textarea::placeholder {
     color: #ebebeb;
