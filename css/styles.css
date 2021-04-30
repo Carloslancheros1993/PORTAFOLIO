@@ -31,7 +31,7 @@ nav {
     left: 0;
     width: 100%;
     box-sizing: border-box;
-    padding: 10px 650px;
+    padding: 10px 450px;
     background-color: #f4f7ff;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.05);
     z-index: 1;
@@ -247,7 +247,7 @@ nav {
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
-.s-b-text a:hover {
+.s-b-text p:hover {
     color: rgba(255,255,255,0.50);
 }
 #Portfolio {
@@ -509,6 +509,30 @@ html {
     }
 }
 @media(max-width:992px) {
+    nav {
+        padding: 10px 0px;
+    }
+    nav ul {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        background: #0f0f0f;
+        top: 0px;
+        left: 0px;
+        transition: 0.5s;
+        overflow: hidden;
+        border: 3px solid #1f1f1f;
+    }
+    nav ul li a {
+        border-bottom: 1px solid rgba(255,255,255,0.10);
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px !important;
+    }
     #main {
         background-image: none!important;
     }
@@ -544,7 +568,7 @@ html {
         height: auto;
         box-sizing: border-box;
         background: #0f0f0f;
-        top: 50px;
+        top: 0px;
         left: 0px;
         transition: 0.5s;
         overflow: hidden;
@@ -553,7 +577,7 @@ html {
     nav ul li a {
         border-bottom: 1px solid rgba(255,255,255,0.10);
         width: 100%;
-        height: 50px;
+        height: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -601,7 +625,7 @@ html {
         background: #262626!important;
         margin: 10px 0px;
         padding: 10px;
-        height: 200px;
+        height: 150px;
         width: 100%;
     }
     .message {
