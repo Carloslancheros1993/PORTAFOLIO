@@ -21,6 +21,7 @@ a {
 }
 nav {
     display: flex;
+    justify-content: center;
     align-items: center;
     text-transform: uppercase;
     font-weight: 600;
