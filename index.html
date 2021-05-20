@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Potfolio</title>
+    <title>Portafolio</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
@@ -11,18 +11,19 @@
     <section id="main">
         <nav>
             <ul class="menu">
-                <li><a href="#main"class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#contact-form">Contact</a></li>
+                <li><a href="#main"class="active">Inicio</a></li>
+                <li><a href="#about">Acerca de mi</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#frontend">Front-end</a></li>
+                <li><a href="#backend">Back-end</a></li>
+                <li><a href="#contact-form">Contacto</a></li>
             </ul>
         </nav>
         <div class="name">
             <p>Hola</p>
             <h1>Soy <font color="#17dlac">Carlos</font> Lancheros</h1>
             <p class="details">Administrador de empresa y desarrollador Full Stack</p>
-            <a href="./css/HV.pdf"class="cv-button">Download CV</a>
+            <a href="./css/CV.pdf"class="cv-button">Descargar CV</a>
             <div class="social">
                 <a href="https://www.linkedin.com/in/carlos-lancheros-alonso-7596ab17b/"><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/"><i class="fab fa-github"></i></a>
@@ -32,7 +33,7 @@
     </section>
     <section id="about">
         <div class="about-text">
-            <h2>About me</h2>
+            <h2>Acerca de mi</h2>
             <h3>Desarrollador FullSatck</h3>
             <p>Soy una persona con alto nivel de compromiso, apasionado por el desarrollo de Software
                 y con alta responsabilidad, proactiva que disfruta trabajando en equipo y con buen manejo del idioma Ingles.
@@ -47,35 +48,34 @@
     </section>
     <section id="services">
         <div class="s-heading">
-            <h2>Services</h2>
-            <p>Servicios que ofrezco</p>
+            <h2>Servicios</h2>
         </div>
         <div class="s-b-container">
             <div class="s-box">
                 <div class="s-b-img">
-                    <div class="s-type">Front-End</div>
-                    <img src="./css/front.png" alt="frontend">
+                    <div class="s-type"><a href="#frontend">Front-End</a></div>
+                    <a href="#frontend"><img src="./css/frontend.png" alt="frontend"></a>
                 </div>
                 <div class="s-b-text">
-                    <p>Conocimientos en HTML, CSS, JAVASCRIPT y BOOTSTRAP. Proyectos Academicos usando REACT.</p>
+                    <a href="#frontend"><p>Conocimientos en HTML, CSS, JAVASCRIPT y BOOTSTRAP. Proyectos Academicos usando REACT.</p></a>
                 </div>
             </div>
             <div class="s-box">
                 <div class="s-b-img">
-                    <div class="s-type">Back-End</div>
-                    <img src="./css/back.png" alt="backend">
+                    <div class="s-type"><a href="#backend">Back-End</a></div>
+                    <a href="#backend"><img src="./css/backend.png" alt="backend"></a>
                 </div>
                 <div class="s-b-text">
-                    <p>Conocimientos en NODE.JS con Express, PostgresSQL, Sequelize,
-                         API REST, Json Web Token, Jest y Swagger</p>
+                    <a href="#backend"><p>PostgreSQL, Node.js: Sequelize, Nodemon, Morgan, Dotenv, Babel, Trabajo con capaz, Seeders,
+                         API REST, Json Web Token, Jest y Swagger, Yeoman</p></a>
                 </div>
             </div>
             </div>
         </div>
     </section>
 
-    <section id="Portfolio">
-        <h2 class="p-heading">Portfolio</h2>
+    <section id="frontend">
+        <h2 class="p-heading">Front-End</h2>
         <div class="p-b-container">
             <div class="p-box">
                 <div class="text-overlay">
@@ -90,15 +90,7 @@
                     <p>Con React.JS</p>
                 </div>
                 <img src="./css/poke.png"alt="desk">
-             </div>
-             <div class="p-box">
-                <div class="text-overlay">
-                    <h3><a href="https://github.com/Carloslancheros1993/proyecto_final.git">Bases de datos</a></h3>
-                    <p> Con Node.js y PostgresSQL, usando Express, Sequelize,
-                        API REST, Json Web Token y Swagger</p>
-                </div>
-                <img src="./css/postgres.png"alt="desk">
-             </div>       
+             </div>     
              <div class="p-box">
                 <div class="text-overlay">
                     <h3><a href="https://musing-yonath-95d086.netlify.app">API Trivia</a></h3>
@@ -108,17 +100,45 @@
              </div>           
              <div class="p-box">
                 <div class="text-overlay">
-                    <h3><a href="https://eloquent-pike-6da35d.netlify.app">CRUD CARS</a></h3>
+                    <h3><a href="https://eloquent-pike-6da35d.netlify.app">CRUD Cars</a></h3>
                     <p> Javascript</p>
                 </div>
                 <img src="./css/crud.png"alt="desk">
-             </div>           
+             </div>              
+        </div>
+    </section>
+
+    <section id="backend">
+        <h2 class="p-heading">Back-End</h2>
+        <div class="p-back-container">
+             <div class="p-b-box">
+                <div class="text-overlay">
+                    <h3><a href="https://github.com/Carloslancheros1993/proyecto_final.git">Servicio de Autenticación</a></h3>
+                    <p>Node.js y PostgresSQL, usando Express, Sequelize,
+                        API REST, Json Web Token y Swagger</p>
+                </div>
+                <img src="./css/swagger.png"alt="desk"> 
+            </a></div>
+             <div class="p-b-box">
+                <div class="text-overlay" >
+                    <h3><a href="https://github.com/Carloslancheros1993/Proyecto_PostgreSQL">Gym Project</a></h3>
+                    <p>PostgreSQL</p>
+                </div>
+                <img src="./css/sql.png"alt="desk">
+             </div>
+             <div class="p-b-box">
+                <div class="text-overlay" >
+                    <h3><a href="https://github.com/Carloslancheros1993/node-subway-project">Subway Project</a></h3>
+                    <p>Node.js, PostgreSQL, Express, Morgan, Nodemon y Sequelize</p>
+                </div>
+                <img src="./css/subway.png"alt="desk">
+             </div>                      
         </div>
     </section>
 
     <section id="contact-btn">
         <h2>Tiene algún proyecto en mente?</h2>
-        <a href="#contact-form">Contact me</a>
+        <a href="#contact-form">Contactame</a>
     </section>
 
     <section id="contact-form">
@@ -126,17 +146,17 @@
             <div class="contact-left">
                 <h2 class="c-l-heading"><font style="border-bottom: 3px solid #1ed98b;">Escribeme</font></h2>
                 <div class="f-name">
-                    <label><font>Name  </font><input type="text" placeholder="Fullname" name="name"></label>
+                    <label><font>Nombre </font><input type="text" placeholder="Nombre Completo" name="name"></label>
                 </div>
                 <div class="f-email">
-                    <label><font>Email  </font><input type="email"placeholder="Example@hmail.com" name="email"></label>
+                    <label><font>Email  </font><input type="email"placeholder="ejemplo@gmail.com" name="email"></label>
                 </div>
             </div>
             <div class="contact-right">
                 <div class="message">
-                    <label><font>Message</font><textarea name="message" cols="20" rows="5"placeholder="Escribe el mensaje..."></textarea></label>
+                    <label><font>Mensaje</font><textarea name="message" cols="20" rows="5"placeholder="Escribe el mensaje..."></textarea></label>
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit">Enviar</button>
             </div>
         </form>
     </section>
